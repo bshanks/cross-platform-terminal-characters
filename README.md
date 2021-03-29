@@ -46,6 +46,7 @@ The following characters work on most terminals. This was tested on:
 - macOS 10.14, terminal.app 2.9
 - Windows 10.0.17763, cmd.exe (CP850)
 - VSCode 1.54.3 terminal (xterm.js)
+- Chrome web browser on Andriod (Chrome version 89.0.4389.105, Android 11 Build RQA.210305.006)
 
 Those terminals are sufficient to catch most cross-platform issues. However, if
 some characters listed below do not display correctly on your terminal, please
@@ -88,14 +89,11 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 
 2500 2012 2014 2015 2501 2550
 ─    ‒    —    ―    ━    ═
-203e
-‾
+
 2504 2505 2508 2509 254c 254d
 ┄┄   ┅┅   ┈┈   ┉┉   ╌╌   ╍╍
 2212 2574 2013 2010 2578 2576
 −−   ╴╴   ––   ‐‐   ╸╸   ╶╶
-2043 257a 257c 257e
-⁃⁃   ╺╺   ╼╼   ╾╾
 
 2502 2503 2551 2016 2506 2507
 │    ┃    ║    ‖    ┆    ┇
@@ -152,8 +150,8 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 ## Geometrical shapes
 
 ```
-2024 2219 2022 25e6
-․    ∙    •    ◦
+2022
+•
 25cb 25cc 25cf
 ○    ◌    ●
 25b2 25bc 25c4 25ba
@@ -169,15 +167,15 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 ## Punctuation
 
 ```
-2026 2030 203c 203d
-…    ‰    ‼    ‽
+2026 2030 203c
+…    ‰    ‼
 
 2018 2019 201a 201b
 ‘    ’    ‚    ‛
-201c 201d 201e 201f
-“    ”    „    ‟
-2032 2033 2e17 2039 203a
-′    ″    ⸗    ‹    ›
+201c 201d 201e
+“    ”    „
+2032 2033 2039 203a
+′    ″    ‹    ›
 ```
 
 ## Numbers and math
@@ -191,25 +189,11 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 221f 2229 222b 2310 2320 2321
 ∟    ∩    ∫    ⌐    ⌠    ⌡
 
-2153 2154 2155 2156 2157 2158
-⅓    ⅔    ⅕    ⅖    ⅗    ⅘
-2159 215a 215b 215c 215d 215e
-⅙    ⅚    ⅛    ⅜    ⅝    ⅞
+215b 215c 215d 215e
+⅛    ⅜    ⅝    ⅞
 
-2070 2074 2075 2076 2077 2078
-⁰    ⁴    ⁵    ⁶    ⁷    ⁸
-2079 2071 207f
-⁹    ⁱ    ⁿ
-207a 207b 207c 207d 207e
-⁺    ⁻    ⁼    ⁽    ⁾
-2080 2081 2082 2083 2084 2085
-₀    ₁    ₂    ₃    ₄    ₅
-2086 2087 2088 2089
-₆    ₇    ₈    ₉
-2090 2091 2092 2093 2094
-ₐ    ₑ    ₒ    ₓ    ₔ
-208a 208b 208c 208d 208e
-₊    ₋    ₌    ₍    ₎
+207f
+ⁿ
 
 24ea 2460 2461 2462 2463 2464
 ⓪   ①   ②    ③    ④    ⑤
@@ -237,50 +221,24 @@ Characters with [Unicode codepoints](https://en.wikipedia.org/wiki/Code_point)
 266a 266b 266f
 ♪    ♫    ♯
 
-2105 2113 2116 2117 2122 2126
-℅    ℓ    №    ℗    ™    Ω
-212e 2132 214d 214e 2183 2184
-℮    Ⅎ    ⅍    ⅎ    Ↄ    ↄ
+2105 2113 2116 2122 2126
+℅    ℓ    №    ™    Ω
+212e
+℮
 
-20a0 20a1 20a2 20a3 20a4 20a5
-₠    ₡    ₢    ₣    ₤    ₥
-20a6 20a7 20a8 20a9 20aa 20ab
-₦    ₧    ₨    ₩    ₪    ₫
-20ac 20ad 20ae 20af 20b0 20b1
-€    ₭    ₮    ₯    ₰    ₱
-20b2 20b3 20b4 20b5 20b6 20b7
-₲    ₳    ₴    ₵    ₶    ₷
-20b8 20b9 20ba 20bd 20bf 0e3f
-₸    ₹    ₺    ₽    ₿    ฿
+20a3 20a4
+₣    ₤
+20a7 20ab
+₧    ₫
+20ac
+€
 ```
 
 ## Miscellaneous
 
 ```
-2c60 2c61 2c62 2c63 2c64 2c65
-Ⱡ    ⱡ    Ɫ    Ᵽ    Ɽ    ⱥ
-2c66 2c67 2c68 2c69 2c6a 2c6b
-ⱦ    Ⱨ    ⱨ    Ⱪ    ⱪ    Ⱬ
-2c6c 2c6d 2c6e 2c6f 2c70 2c71
-ⱬ    Ɑ    Ɱ    Ɐ    Ɒ    ⱱ
-2c72 2c73 2c74 2c7e 2c7f
-Ⱳ    ⱳ    ⱴ   Ȿ    Ɀ
-2c75 2c76 2c77 2c78 2c79 2c7a
-Ⱶ    ⱶ    ⱷ    ⱸ    ⱹ    ⱺ
-2c7b 2c7c 2c7d
-ⱻ    ⱼ    ⱽ
-
-a717 a718 a719 a71a a71b a71c
-ꜗ     ꜘ     ꜙ     ꜚ     ꜛ    ꜜ
-a71d a71e a71f a720 a721
-ꜝ    ꜞ    ꜟ    ꜠     ꜡
-a788 a789 a78a a78b a78c
-ꞈ    ꞉    ꞊    Ꞌ    ꞌ
-
-fb00 fb01 fb02 fb03 fb04 fb05
-ﬀ    ﬁ    ﬂ    ﬃ   ﬄ    ﬅ
-fb06
-ﬆ
+fb00 fb01 fb02 fb03 fb04
+ﬀ    ﬁ    ﬂ    ﬃ   ﬄ
 
 fb13 fb14 fb15 fb16 fb17
 ﬓ   ﬔ    ﬕ   ﬖ    ﬗ
